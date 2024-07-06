@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "histories",
+  "info": {
+    "singularName": "history",
+    "pluralName": "histories",
+    "displayName": "history",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "inputData": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "result": {
+      "type": "string"
+    },
+    "userId": {
+      "type": "integer"
+    }
+  }
+}
